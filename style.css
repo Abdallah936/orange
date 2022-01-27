@@ -75,3 +75,7 @@ nav ul li button {
 #second {
   background-image: url(./images/desktop/image-photography.jpg);
 }
+.footer {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.footer img { width: 325px;}
