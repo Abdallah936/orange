@@ -75,7 +75,17 @@ nav ul li button {
 #second {
   background-image: url(./images/desktop/image-photography.jpg);
 }
-.footer {
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+.aaddd {
+  display: grid;
+  margin-top: 2rem;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
 }
-.footer img { width: 325px;}
+.aaddd img {
+width: 380px;
+}
+.linkfoot {color: black;}
+
+footer {background-color: aquamarine; margin-bottom: 2px;}
+.photofoot
+{ width: 50px;}
