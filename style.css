@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+header {
+  color: white;
+  height: 600px;
+  background-image: url(./images/desktop/image-header.jpg);
+  background-position: center;
+  background-size: cover;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 15px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 5px 10px;
+}
+nav ul li button {
+  color: white;
+  border: 0;
+  padding: 12px;
+  border-radius: 14px;
+  font-weight: 700;
+}
+#titre1 {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 46px;
+  text-transform: uppercase;
+}
+.etape2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.etape2 .texte {
+  margin: 100px;
+}
+.etape2 .texte h3 {
+  font-size: 36px;
+  font-weight: 800;
+}
+.etape2 .texte p {
+  margin-top: 30px;
+}
+.etape2 .texte button {
+  margin-top: 30px;
+}
+.txt {
+  padding: 16px;
+  border: 1px red;
+}
+
+.txt div {
+  text-align: center;
+  margin-top: 280px;
+  padding: 0 60px;
+}
+.txt div p {
+  margin-top: 20px;
+}
+#first {
+  background-image: url(./images/desktop/image-transform.jpg);
+}
+#second {
+  background-image: url(./images/desktop/image-photography.jpg);
+}

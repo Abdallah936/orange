@@ -1,0 +1,19 @@
+nav {
+  color: blue;
+  font-size: 20px;
+  font-style: italic;
+}
+div {
+  color: chartreuse;
+  display: inline-block;
+}
+
+.mar {
+  color: chocolate;
+  font-size: 20px;
+  background-color: white;
+}
+.abd {
+  color: yellow;
+} 
+#abd1 { color: violet;}
