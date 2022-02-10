@@ -32,6 +32,12 @@ nav ul li button {
   border-radius: 14px;
   font-weight: 700;
 }
+#barre1 {
+  margin-left: 70rem;
+  padding: 0.5rem 0.5rem;
+  border-radius: 14px;
+  font-weight: 700;
+}
 #titre1 {
   text-align: center;
   margin-top: 40px;
@@ -123,7 +129,9 @@ nav ul li button {
   font-weight: 800;
   margin-top: 3rem;
 }
-#carts h6{margin-top: 1rem;}
+#carts h6 {
+  margin-top: 1rem;
+}
 .aaddd {
   display: grid;
   margin-top: 2rem;
@@ -139,8 +147,25 @@ nav ul li button {
 
 footer {
   background-color: aquamarine;
-  margin-bottom: 2px;
+  padding: 3rem 0rem;
 }
-.photofoot {
+footer h3 {
+  padding-bottom: 1.5rem;
+  font-size: 2rem;
+  text-align: center;
+}
+.linkfoot li {
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+}
+footer div .photofoot {
+  display: flex;
+  justify-content: center;
+  padding-top: 4rem;
+  flex-direction: row;
+  gap: 3rem;
   width: 50px;
+  padding-left: 46rem;
 }
